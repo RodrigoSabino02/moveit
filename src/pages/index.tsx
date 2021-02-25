@@ -1,4 +1,5 @@
 import React from 'react'
+import { ChallengerBox } from '../components/ChallengerBox'
 import { CompletedChalleges } from '../components/CompletedChalleges'
 import { Countdown } from '../components/Countdown'
 import { ExperienceBar } from '../components/ExperienceBar'
@@ -18,7 +19,7 @@ export default function Home() {
       </div>
 
       <div className="">
-
+        <ChallengerBox />
       </div>
     </section>
   </div>
